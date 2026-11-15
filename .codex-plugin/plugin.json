@@ -1,0 +1,44 @@
+{
+  "name": "vibra",
+  "version": "0.1.0",
+  "description": "Make padel reels from your Vibra Clips: find your best moments, learn from what's trending on Vibra Radar, and cut 9:16 reels ready for Instagram.",
+  "author": {
+    "name": "Vibra Padel",
+    "url": "https://vibrapadel.vercel.app"
+  },
+  "homepage": "https://github.com/JJLittlemore15/vibra-codex-plugin",
+  "repository": "https://github.com/JJLittlemore15/vibra-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "padel",
+    "vibra",
+    "reels",
+    "instagram",
+    "video",
+    "ffmpeg",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Vibra Padel",
+    "shortDescription": "Padel reels from your clips",
+    "longDescription": "You film and mark highlights in the Vibra app on your phone. This plugin lets Codex on your computer (Mac or Windows PC) find those clips, suggest reel ideas from what's trending on Vibra Radar, and cut a vertical 1080x1920 reel with ffmpeg that you post yourself. Read-only: it can see your own clips and labels, and never posts, deletes or changes anything in Vibra or on Instagram. Sign in with the same login as the Vibra app.",
+    "developerName": "Vibra Padel",
+    "category": "Creativity",
+    "capabilities": [
+      "Find your labelled padel clips in Vibra",
+      "Suggest reel ideas from Vibra Radar trends",
+      "Cut 9:16 Instagram-ready reels on your computer with ffmpeg"
+    ],
+    "websiteURL": "https://vibrapadel.vercel.app",
+    "privacyPolicyURL": "https://www.vibrapadel.shop/vibrapolicies",
+    "defaultPrompt": [
+      "Make me a 20-second reel of my best points this week",
+      "Brainstorm reels from what's trending on Vibra Radar",
+      "Which of my Vibra clips haven't I used yet?"
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
